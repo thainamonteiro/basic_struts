@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Esse arquivo do Struts2 informa à estrutura que, se a URL terminar index.action para redirecionar o navegador para index.jsp. -->
+<struts>
+
+    <constant name="struts.devMode" value="true" />
+
+    <package name="basicstruts2" extends="struts-default">
+        <action name="index">
+            <result>/index.jsp</result>
+        </action>
+    </package>
+
+</struts>
